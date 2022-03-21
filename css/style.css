@@ -10,6 +10,10 @@
     margin-top: 50px;
 }
 
+.row {
+    margin-bottom: 50px;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -33,20 +37,24 @@
 
 .product-discount {
     background-color: red;
-    position: absolute;
+    position: relative;
     left: 0;
-    bottom: 10px;
+    bottom: 50px;
     color: white;
-    padding: 10px;
+    padding: 5px;
+    width: 55px;
+    z-index: 2;
+    display: inline;
 }
 
 .product-sostenibility {
     background-color: green;
-    position: absolute;
-    left: 60px;
-    bottom: 10px;
+    position: relative;
+    bottom:50px;
     color: white;
-    padding: 10px;
+    padding: 5px;
+    width: 100px;
+    display: inline;
 }
 
 .product-wishlist {
@@ -54,8 +62,10 @@
     top: 30px;
     right: 0px;
     width: 30px;
+    height: 30px;
     text-align: center;
     background-color: white; 
+    padding-top: 5px;
 }
 
 .product .product-img-2 {
