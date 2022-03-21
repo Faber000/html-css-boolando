@@ -30,3 +30,49 @@
     display: block;
 }
 
+.product-discount {
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.product-sostenibility {
+    background-color: green;
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.product-wishlist {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 30px;
+    text-align: center;
+    background-color: white; 
+}
+
+.product .product-img-2 {
+    display: none;
+}
+
+.product:hover .product-img-1 {
+    display: none;
+}
+
+.product:hover .product-img-2 {
+    display: block;
+}
+
+.discounted-price {
+    color:red;
+}
+
+.original-price {
+    text-decoration: line-through;
+}
